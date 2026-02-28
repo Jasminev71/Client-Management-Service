@@ -1,4 +1,4 @@
-# CS-320-Software-Testing-
+# Overview
 **How can I ensure that my code, program, or software is functional and secure?**
 To ensure that my application and code are functional and secure, I wrote clear, modular code that validates each method using unit testing. JUnit testing helped to verify that
 input, output, and exception handling are behaving as expected. As for security, I tried to follow best practices such as input validations, proper data
