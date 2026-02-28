@@ -13,7 +13,7 @@ class AppointmentServiceTest {
     }
 
     @Test
-    void testAdndDelete() {
+    void testAndDelete() {
         AppointmentService svc = new AppointmentService();
         Appointment a1 = new Appointment("ID1", future(), "Dentist");
         Appointment a2 = new Appointment("ID2", future(), "Haircut");

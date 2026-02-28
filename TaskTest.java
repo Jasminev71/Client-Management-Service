@@ -1,4 +1,4 @@
-package org.snhu.cs320.Task;
+package org.snhu.cs320.task;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Assertions;

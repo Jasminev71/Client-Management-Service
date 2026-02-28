@@ -9,6 +9,10 @@ public class ContactService {
 
     private final Map<String, Contact> database = new ConcurrentHashMap<>();
 
+    public void clearAll() {
+    database.clear();
+}
+
     private ContactService() {}
 
     public static synchronized ContactService getInstance() {

@@ -33,7 +33,7 @@ public class Contact {
 
 	public void setFirstName(String firstName) throws Exception {
 		if (firstName == null || firstName.trim().length() < 1 || firstName.length() > 10) {
-			throw new Exception("Yikes, check First Name");
+			throw new IllegalArgumentException("Yikes, check First Name");
 		}
 		
 		this.firstName = firstName;
@@ -45,7 +45,7 @@ public class Contact {
 
 	public void setLastName(String lastName) throws Exception {
 		if (lastName == null || lastName.trim().length() < 1 || lastName.length() > 10) {
-			throw new Exception("Yikes, check Last Name");
+			throw new IllegalArgumentException("Yikes, check Last Name");
 		}
 		
 		this.lastName = lastName;
@@ -69,14 +69,14 @@ public class Contact {
 	public void setAddress(String address) throws Exception {
 		
 		if (address == null || address.length() < 1 || address.length() > 30) {
-			throw new Exception("The address provided is too long");
+			throw new IllegalArgumentException("The address provided is too long");
 		}
 		this.address = address;
 	}
 	
 	private void setContactId(String contactId) throws Exception {
 		if (contactId == null || contactId.trim().length() < 1 || contactId.length() > 10) {
-			throw new Exception("Yikes, check Contact ID");
+			throw new IllegalArgumentException("Yikes, check Contact ID");
 		}
 		
 		this.contactId = contactId;

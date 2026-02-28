@@ -1,4 +1,4 @@
-package org.snhu.cs320.Task;
+package org.snhu.cs320.task;
 
 import org.junit.jupiter.api.Test;
 import org.snhu.cs320.task.Task;
